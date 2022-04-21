@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Login | Blog</title>
+  </head>
+  <body style="background-image: url(images/signupbackground.jpg)">
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+    <script src="index.js"></script>
+    <header>
+      <div class="mynote-inNewNotepage">
+        <a class="atag-newnotes" href="createNewNote.html"> New Notes</a>
+        <a class="colum-2-header" href="MyNotes.html"> My Notes</a>
+        <a class="colum-3-header" href="SocialNotes.html"> Social</a>
+        <a class="colum-4-header" href="veiwprofile.html">Profile</a>
+      </div>
+    </header>
+    <div class="center-signup">
+      <centre><h1>Weclome Again</h1></centre>
+
+      <form action="">
+        <div class="center">
+          <label>User Name : </label>
+          <p id="name"></p>
+          <input type="text" name="username" placeholder="email" id="email" />
+          &nbsp;
+          <label id="passwordlabel">Password : </label>
+          <p id="pasword"></p>
+          <input
+            type="text"
+            name="Password"
+            placeholder="Password"
+            id="Password"
+          />
+          &nbsp;
+
+          <button
+            class="margin-shift-submit"
+            onclick="logins()"
+            type="button"
+          >
+            Login Account
+          </button>
+          <br />
+
+          <br />
+          <a href="signup.html" id="donthaveaccount"> Dont have a acoount </a>
+          <br />
+
+          <br />
+          <a href="forgotpassword.html" id="forgotpassword"
+            >Forgot the Password</a
+          >
+          <p id = "surya"></p>
+        </div>
+      </form>
+      <h4 id="demo"></h4>
+    </div>
+   
+  </body>
+</html>

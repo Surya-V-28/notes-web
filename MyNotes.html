@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>My Notes</title>
+</head>
+<body style="background-image: url(images/signupbackground.jpg)">
+    <header>
+        <div class="mynote-inNewNotepage">
+          <a class="atag-newnotes" href="createNewNote.html"> New Notes</a>
+          <a class="colum-2-header" href="MyNotes.html"> My Notes</a>
+          <a class="colum-3-header" href="SocialNotes.html"> Social</a>
+          <a class="colum-4-header" href="veiwprofile.html">Profile</a>
+        </div>
+      </header>
+   <div class="myNotesPage"  id="myAllNotes">
+     <div class="wel"> 
+         <h6>Author </h6>
+         <h2>
+             center
+         </h2>
+     </div>
+     <p class ="myAllNotes"></p>
+   </div>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+    <script src="index.js"></script>
+    <script >
+         window.onload =mynotespage;
+    </script>
+    
+</body>
+</html>

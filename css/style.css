@@ -1,0 +1,318 @@
+h1 {
+  color: white;
+  text-shadow: 10px;
+}
+.center {
+  margin-left: 500px;
+  display: block;
+}
+h2 {
+  color: blue;
+  font-size: 35px;
+}
+
+.center-signup {
+  align-items: center;
+  margin: auto;
+  padding: 0px;
+}
+
+.center {
+  margin-left: 50%;
+}
+
+.a {
+  background-color: blue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+.a:hover,
+.a:active {
+  background-color: lightgreen;
+}
+.backadd {
+  float: right;
+  border: 1px solid #73ad21;
+  background-color: #73ad21;
+  border-radius: 25px;
+}
+
+/*  The Button for the notes and social your notes */
+
+.Button-sign-in {
+  margin-top: 20px;
+  float: center;
+}
+
+.newnote-button {
+  margin: 5px;
+  background-color: bisque;
+  padding: 14px 20px;
+  text-align: center;
+  margin-top: 2px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+/* Note page to write the content  all the content of the new note page here after */
+
+.Note-box {
+  position: relative;
+  margin: 20px;
+  padding-top: 2px;
+  background-color: white;
+  color: black;
+  width: 1360px;
+  max-width: 1390px;
+  height: 400px;
+  overflow: auto;
+  border: 2px solid red;
+  font-size: 17px;
+}
+
+.notes-cancel {
+  width: 350px;
+  margin-left: 15px;
+  margin: 10px;
+  background-color: lightcoral;
+  height: 45px;
+  border: 1px solid red;
+  border-radius: 4px;
+  color: white;
+  align-items: center;
+  font-size: large;
+}
+.notes-cancel:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.notes-save {
+  float: right;
+  width: 350px;
+  margin: 15px;
+  margin-right: 100px;
+  background-color: greenyellow;
+  height: 45px;
+  border: 1px solid green;
+  border-radius: 4px;
+  color: white;
+  font-size: large;
+}
+
+.notes-save:hover {
+  background-color: azure;
+  color: black;
+}
+
+.mynote-inNewNotepage {
+  width: 950px;
+  padding: 15px 20px;
+  text-align: end;
+}
+
+.background {
+  margin-top: 40px;
+}
+.atag-newnotes {
+  margin: 10px;
+  background-color: blue;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 14px;
+  border: 2px solid black;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-left: 2px;
+}
+
+.colum-2-header {
+  background-color: red;
+  padding: 15px 20px;
+  border-radius: 14px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+.colum-3-header {
+  background-color: yellowgreen;
+  padding: 15px 30px;
+  border-radius: 14px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 2px;
+}
+.colum-3-header:hover,
+.colum-4-header:hover,
+.colum-2-header:hover,
+.atag-newnotes:hover {
+  background-color: azure;
+  color: black;
+}
+
+/* this i for the add profile in sigin page **/
+
+.colum-4-header {
+  background-color: gray;
+  padding: 15px 30px;
+  border-radius: 14px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 2px;
+  margin-top: 0px;
+  text-align: start;
+  float: left;
+}
+
+/*this is for the container to show the user profile */
+
+
+
+
+
+
+.clear-profile  {
+    background-color: orange;
+    width: 150px;
+    height: 250px;
+   padding: 30px 50px;
+   margin-left: 40%;
+   margin-top: 15%;
+   border-radius: 25px;
+}
+
+.nameofuser {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.ediltbuttons{
+   color: lightblue;
+   padding: 07px 60px;
+   margin-bottom: 30px;
+   background: blue;
+   border-radius: 25px;
+   border: 2px solid blue;
+}
+
+.ediltbuttons:hover {
+  color: black;
+  background-color: white;
+}
+.submitbutton{
+  display: none;
+  color: black;
+  padding: 07px 60px;
+  margin-bottom: 50px;
+  background: greenyellow;
+  border-radius: 25px;
+  border: 2px solid green;
+}
+
+
+.myNotesPage p  {
+  background-color: lightgray;
+  padding: 15px 10px;
+  width: auto;
+  height: auto;
+  border-radius: 15px 40px;
+}
+
+.myNotesPage h2 {
+  color: black;
+  background-color: blueviolet;
+  height: auto;
+  width: auto;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+
+
+.myNotesPage h6 {
+  float: left;
+  color: white;
+}
+
+.myNotesPage h6 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-right:550px;
+  font-size: 20px;
+  color: black;
+}
+
+
+/* socials notes for the  social people*/
+
+.socialnotes h6 {
+   margin-top: 40px;
+   margin-bottom: 0px;
+   padding-left: 40px;
+   background-color: white;
+   width: auto;
+   height: auto;
+   font-size:large ;
+}
+
+.socialnotes h4 {
+  margin-top: 0px;
+  scroll-margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 40px;
+  background-color: white;
+  width: auto;
+  height: auto;
+  font-size:large ;
+  text-align: center;
+}
+
+.socialnotes p {
+  margin-top: 0px;
+  scroll-margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 40px;
+  background-color: lightgray;
+  width: auto;
+  height: auto;
+  font-size:large ;
+}
+
+.socialnotes h5 {
+  margin-top: 0px;
+  scroll-margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 40px;
+  background-color: white;
+  width: auto;
+  height: auto;
+  font-size:small;
+  color: lightseagreen;
+}
+
+
+/* logout the function */ 
+.logoutfunction {
+  font-style: none;
+  background-color: aliceblue;
+  padding: 7px 45px;
+  border-radius: 50px;
+   color:black;
+}
+
+
+
+
+

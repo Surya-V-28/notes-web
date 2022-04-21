@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Create|Blog</title>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+  <script src="index.js"></script>
+</head>
+<body style="background-image: url(images/signupbackground.jpg)">
+  <header>
+    <div class="mynote-inNewNotepage">
+      <a class="atag-newnotes" href="createNewNote.html"> New Notes</a>
+      <a class="colum-2-header" href="MyNotes.html"> My Notes</a>
+      <a class="colum-3-header" href="SocialNotes.html"> Social</a>
+      <a class="colum-4-header" href="veiwprofile.html">Profile</a>
+    </div>
+  </header>
+  <br />
+  <br />
+  <div class="center-signup">
+    <centre>
+      <h1>Weclome to firebase web app series using node.js</h1>
+    </centre>
+    <form action="">
+      <div class="center">
+        <input type="text" name="username" placeholder="NaME" id="name">
+        <label>Register Name : </label>
+        <input type="text" name="username" placeholder="Enter Name" id="newuser" />
+        <br />
+    
+        <br />
+        <label>Password : </label>
+        <input type="text" name="Password" placeholder="Enter Password" id="newmailpassword" />
+        <br />
+
+        <br />
+        <label>Confirm Password : </label>
+        <input type="text" name="CPassword" placeholder="CEnter Password" id="newmailpasswordconfirm" />
+        <br />
+
+        <br />
+        <input type="text" name="lociation" placeholder="lociation" id="lociation">
+        <br /><button type="button" class="margin-shift-submit" onclick = "register()">
+          Register Account
+        </button>
+        <a href="signin.html"> Login in(Already have a account) </a>
+      </div>
+    </form>
+    <h2>Welcome to the online blog creation website</h2>
+  </div>
+  <script>
+    function Validitypassword() {
+      var pass = document.getElementById("newmailpassword").value;
+      var Cpass = document.getElementById("newmailpasswordconfirm").value;
+      if(pass ==Cpass){
+            register();
+      } else {
+        alert("your password does not match please enter again");
+        document.getElementById("newmailpassword").value = "";
+        document.getElementById("newmailpasswordconfirm").value = "";
+      }
+    }
+  </script>
+</body>
+</html>

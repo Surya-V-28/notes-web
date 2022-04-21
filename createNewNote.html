@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Notes!</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="background-image: url(images/newnote.jpg)">
+    <div class="background">
+      <header>
+        <div class="mynote-inNewNotepage">
+          <a class="atag-newnotes" href="createNewNote.html"> New Notes</a>
+          <a class="colum-2-header" href="MyNotes.html"> My Notes</a>
+          <a class="colum-3-header" href="SocialNotes.html"> Social</a>
+          <a class="colum-4-header" href="veiwprofile.html">Profile</a>
+        </div>
+      <textarea
+        class="Note-box"
+        name="NotePost"
+        id="NoteOfThePost"
+        cols="400"
+        rows="20"
+        placeholder="Write Your Notes"
+      >
+      </textarea>
+      <div>
+        <button class="notes-cancel" onclick='closenote()'>
+          Cancel
+        </button>
+
+        <button class="notes-save" onclick='addthenote()'>
+          Save Note
+        </button>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+    <script src="index.js"></script>
+    <script> 
+    function closenote() {
+      document.getElementById('NoteOfThePost').value = "";
+      alert("new notes")
+
+    }
+    </script>
+  </body>
+</html>
